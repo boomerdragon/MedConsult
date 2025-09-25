@@ -1,12 +1,15 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "MOBILE"
+  },
   "applicationDetail": {
     "navigationSetting": {
       "colorStyle": "theme",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "sidebar",
-      "orientation": "side",
+      "navStyle": "stacked",
+      "orientation": "top",
       "position": "static",
       "showNavbar": true,
       "showSignIn": true
@@ -24,17 +27,20 @@
   "icon": "lotus",
   "pages": [
     {
-      "id": "Page1",
+      "id": "Main",
       "isDefault": true
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
   "unpublishedApplicationDetail": {
     "navigationSetting": {
       "colorStyle": "theme",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
-      "navStyle": "sidebar",
-      "orientation": "side",
+      "navStyle": "stacked",
+      "orientation": "top",
       "position": "static",
       "showNavbar": true,
       "showSignIn": true
